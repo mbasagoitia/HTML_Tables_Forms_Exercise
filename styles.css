@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+tbody tr:nth-of-type(odd) {
+    background: lightgray;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    margin: 5px;
+}
